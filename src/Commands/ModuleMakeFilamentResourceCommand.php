@@ -2,7 +2,6 @@
 
 namespace TheavuthNhel\Modules\Commands;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Filament\Clusters\Cluster;
 use Filament\Facades\Filament;
 use Filament\Forms\Commands\Concerns\CanGenerateForms;
@@ -13,6 +12,7 @@ use Filament\Support\Commands\Concerns\CanReadModelSchemas;
 use Filament\Tables\Commands\Concerns\CanGenerateTables;
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 use function Laravel\Prompts\select;
 use function Laravel\Prompts\text;

@@ -2,13 +2,13 @@
 
 namespace TheavuthNhel\Modules\Commands;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Filament\Clusters\Cluster;
 use Filament\Commands\MakePageCommand;
 use Filament\Facades\Filament;
 use Filament\Panel;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 use function Laravel\Prompts\confirm;
 use function Laravel\Prompts\select;

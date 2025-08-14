@@ -2,13 +2,13 @@
 
 namespace TheavuthNhel\Modules\Commands;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Filament\Facades\Filament;
 use Filament\Panel;
 use Filament\Resources\Resource;
 use Filament\Widgets\Commands\MakeWidgetCommand;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 use function Laravel\Prompts\select;
 use function Laravel\Prompts\text;

@@ -2,9 +2,9 @@
 
 namespace TheavuthNhel\Modules;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Filament\Contracts\Plugin;
 use Filament\Panel;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 class ModulesPlugin implements Plugin
 {

@@ -4,7 +4,6 @@ namespace TheavuthNhel\Modules\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
-use TheavuthNhel\Modules\ModulesServiceProvider;
 use Filament\Actions\ActionsServiceProvider;
 use Filament\FilamentServiceProvider;
 use Filament\Forms\FormsServiceProvider;
@@ -19,6 +18,7 @@ use Nwidart\Modules\LaravelModulesServiceProvider;
 use Orchestra\Testbench\Concerns\WithWorkbench;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
+use TheavuthNhel\Modules\ModulesServiceProvider;
 
 class TestCase extends Orchestra
 {

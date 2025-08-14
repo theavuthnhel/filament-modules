@@ -2,8 +2,8 @@
 
 namespace TheavuthNhel\Modules\Commands;
 
-use TheavuthNhel\Modules\Concerns\GeneratesModularFiles;
 use Illuminate\Console\GeneratorCommand;
+use TheavuthNhel\Modules\Concerns\GeneratesModularFiles;
 
 class ModuleMakeFilamentPluginCommand extends GeneratorCommand
 {

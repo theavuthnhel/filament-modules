@@ -2,11 +2,11 @@
 
 namespace TheavuthNhel\Modules\Concerns;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Illuminate\Support\Str;
 use Nwidart\Modules\Module;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Finder\Finder;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 trait GeneratesModularFiles
 {

@@ -2,12 +2,12 @@
 
 namespace TheavuthNhel\Modules\Concerns;
 
-use TheavuthNhel\Modules\Facades\FilamentModules;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
 use Nwidart\Modules\Module;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;
+use TheavuthNhel\Modules\Facades\FilamentModules;
 
 use function Laravel\Prompts\confirm;
 
